@@ -1,0 +1,34 @@
+gplink-0.13.7 beta
+Map File - Created 2-9-2013  13:35:08
+ 
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                    start       code   00000000    program   0x000002
+                    libtt       code   0x000001    program   0x0000a8
+                     prog       code   0x000055    program   0x000006
+                  .config       code   0x002007    program   0x000002
+                   .udata      udata   0x000020       data   0x000001
+ 
+                              Program Memory Usage
+                               Start         End
+                           ---------   ---------
+                            0x002007    0x002007
+                            00000000    00000000
+                            0x000055    0x000057
+                            0x000001    0x000054
+ 
+                            89 program addresses used
+ 
+                              Symbols
+                     Name    Address   Location    Storage File
+                ---------  ---------  ---------  --------- ---------
+                     main   0x000055    program     static src/bin/main_trmt.asm
+                     test   0x000056    program     static src/bin/main_trmt.asm
+                set_ports   0x000001    program     extern ./src/lib/set_ports.asm
+          set_pinout_tris   0x000005    program     extern ./src/lib/set_pinout_tris.asm
+                   TRMT_T   0x000020       data     static ./src/lib/test_trmt.asm
+                test_trmt   0x000013    program     extern ./src/lib/test_trmt.asm
+         set_anselh_ansel   0x00002f    program     extern ./src/lib/set_anselh_ansel.asm
+         set_eusart_19200   0x000036    program     extern ./src/lib/set_eusart_19200.asm
+ 
